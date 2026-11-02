@@ -1,0 +1,18 @@
+name: Question
+description: Ask a question about using TaskNebula
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues and the canonical documentation first, then use this template for a reproducible usage question.
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to know?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you already tried?
